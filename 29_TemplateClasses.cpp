@@ -67,13 +67,11 @@ T Arithametic<T>::sub()
 	c=a-b;
 	return c;
 }
-
 int main()
 {
 	// parameter is int type
 	Arithametic<int> ar(10,5);
 	cout << ar.add();
-	
 	// parameter is float type
 	Arithametic<float> ar1(10,5);
 	cout << ar1.add();
